@@ -34,8 +34,9 @@ function triggerDetect(arrayLength,numberArray) {
 
     //for (let index = 0; index < numberLength; index +=1){
       for (let digit of number);
-      console.log("numberArray digit looped " + index);
-      if (triggerList.includes(digitArray[index])) {
+      console.log("digitArray digit looped");
+        //if (triggerList.includes(digit)) {
+        console.log("digit triggered");
         // let digitArray = numberArray[index].split("");
         // let xArray = [];
         // stringArray.forEach(function(letter) {
@@ -46,12 +47,13 @@ function triggerDetect(arrayLength,numberArray) {
         //   }
         // turn boolean true; if
         //triggerOutput.push(numberArray[index]);
-      } else {
-        triggerOutput.push(numberArray[index]);
-        }
+        //} else {
+        console.log("digit not triggered");
+        //triggerOutput.push(numberArray[index]);
+          }
     }
 
-  }
+  //}
 
   //return triggerOutput;
 //} 
