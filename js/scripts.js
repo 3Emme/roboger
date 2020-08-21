@@ -25,38 +25,37 @@ function triggerDetect(arrayLength,numberArray) {
     for (let number of numberArray){
     let numberLength = number.length;
     let numberDigitArray = number.split("");
-    //let numberUnderScope = numberArray[index];
+    console.log("numberDigitArray: " + numberDigitArray);
     console.log("numberUnderScope: " + number);
     console.log("Length of number under scope: " + numberLength);
     //const digitArray = numberUnderScope.split("");
     console.log("numberArray index looped");
     //console.log("digitArray: " + digitArray);
-
-    //for (let index = 0; index < numberLength; index +=1){
-      for (let digit of number);
+    let triggerDigit = 0;
+      for (let digit of numberDigitArray){
       console.log("digitArray digit looped");
-        //if (triggerList.includes(digit)) {
-        console.log("digit triggered");
-        // let digitArray = numberArray[index].split("");
-        // let xArray = [];
-        // stringArray.forEach(function(letter) {
-        //   if (vowels.includes(letter)) {
-        //     xArray.push("x");
-        //   } else {
-        //     xArray.push(letter);
-        //   }
-        // turn boolean true; if
-        //triggerOutput.push(numberArray[index]);
-        //} else {
+        if (triggerList.includes(digit) && parseInt(digit) > triggerDigit) {
+          triggerDigit = digit;
+          console.log("digit triggered");
+          // let xArray = [];
+          // stringArray.forEach(function(letter) {
+          //   if (vowels.includes(letter)) {
+          //     xArray.push("x");
+          //   } else {
+          //     xArray.push(letter);
+          //   }
+          // turn boolean true; if
+          //triggerOutput.push(numberArray[index]);
+        } else {
         console.log("digit not triggered");
         //triggerOutput.push(numberArray[index]);
           }
     }
-
-  //}
+    console.log("triggerDigit: " + triggerDigit);
+  }
 
   //return triggerOutput;
-//} 
+} 
 
 
 

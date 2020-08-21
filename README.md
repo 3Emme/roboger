@@ -69,9 +69,18 @@ For reference, here are last week's objectives:
   * Input: 10
   * Output: "0,1,2,3,4,5,6,7,8,9,10"
 
-* [] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), recording only the highest value of the trigger digit detected.
-  * Input: 
+* [X] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), recording only the highest value of the trigger digit detected (triggerDigit).
+  * Input: 20
   * Output:
+    numberDigitArray: 2,0
+    numberUnderScope: 20
+    Length of number under scope: 2
+    numberArray index looped
+    digitArray digit looped
+    digit triggered
+    digitArray digit looped
+    digit not triggered
+    triggerDigit: 2
 
 * [] The program replaces any number within the range that contains a trigger digit with a string. The string's value is dependent on the value of the trigger digit detected:
   * If the trigger digit's value is 3, replace the number with the string "Won't you be my neighbor?".
