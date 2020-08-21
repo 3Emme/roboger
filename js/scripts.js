@@ -21,44 +21,31 @@ function triggerDetect(arrayLength,numberArray) {
   let triggerList = ["1","2","3"]; 
   let triggerOutput = [];
 
-  //for (let index = 0; index < arrayLength; index +=1) {
     for (let number of numberArray){
     let numberLength = number.length;
     let numberDigitArray = number.split("");
     console.log("numberDigitArray: " + numberDigitArray);
     console.log("numberUnderScope: " + number);
     console.log("Length of number under scope: " + numberLength);
-    //const digitArray = numberUnderScope.split("");
     console.log("numberArray index looped");
-    //console.log("digitArray: " + digitArray);
     let triggerDigit = 0;
       for (let digit of numberDigitArray){
         console.log("digitArray digit looped");
         if (triggerList.includes(digit) && parseInt(digit) > triggerDigit) {
           triggerDigit = digit;
           console.log("digit triggered");
-          // let xArray = [];
-          // stringArray.forEach(function(letter) {
-          //   if (vowels.includes(letter)) {
-          //     xArray.push("x");
-          //   } else {
-          //     xArray.push(letter);
-          //   }
-          // turn boolean true; if
-          //triggerOutput.push(numberArray[index]);
         } else {
         console.log("digit not triggered");
-        //triggerOutput.push(numberArray[index]);
           }
       }
     console.log("triggerDigit: " + triggerDigit);
-    if (triggerDigit === 3 || triggerDigit === "3"){
+    if (triggerDigit === "3"){
       triggerOutput.push("Won't you be my neighbor?");
       console.log("triggerOutput: pushed #3");
-    } else if (triggerDigit === 2 || triggerDigit === "2"){
+    } else if (triggerDigit === "2"){
       triggerOutput.push("Boop!");
       console.log("triggerOutput: pushed #2");
-    } else if (triggerDigit === 1 || triggerDigit === "1"){
+    } else if (triggerDigit === "1"){
       triggerOutput.push("Beep!");
       console.log("triggerOutput: pushed #1");
     } else {
@@ -69,22 +56,6 @@ function triggerDetect(arrayLength,numberArray) {
     console.log("triggerOutput: " + triggerOutput);
   return triggerOutput;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // Interface Logic
 $(document).ready(function(){  

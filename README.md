@@ -82,17 +82,13 @@ For reference, here are last week's objectives:
     digit not triggered
     triggerDigit: 2
 
-* [] The program replaces any number within the range that contains a trigger digit with a string. The string's value is dependent on the value of the trigger digit detected:
+* [X] The program replaces any number within the range that contains a trigger digit with a string. The string's value is dependent on the value of the trigger digit detected:
   * If the trigger digit's value is 3, replace the number with the string "Won't you be my neighbor?".
-    * Input: 
-    * Output:
   * If the trigger digit's value is 2, replace the number with the string "Boop!".
-    * Input: 
-    * Output:
   * If the trigger digit's value is 1, replace the number with the string "Won't you be my neighbor?".
-    * Input: 
+    * Input: 30
     * Output:
-
+      triggerOutput: 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?
 * [] The program displays the new list of values to the user
   * Input: 
   * Output:
