@@ -65,9 +65,9 @@ For reference, here are last week's objectives:
   * Input: 5
   * Output: 5
 
-* [] The program returns a range of numbers from 0 to the users inputted number
-  * Input: 
-  * Output:
+* [X] The program returns a range of numbers from 0 to the users inputted number
+  * Input: 10
+  * Output: "0,1,2,3,4,5,6,7,8,9,10"
 
 * [] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), noticing only the highest value of the trigger digit detected.
   * Input: 
