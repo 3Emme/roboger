@@ -89,9 +89,11 @@ For reference, here are last week's objectives:
     * Input: 30
     * Output:
       triggerOutput: 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?
-* [] The program displays the new list of values to the user
-  * Input: 
-  * Output:
+      
+* [X] The program displays the new list of values to the user
+  * Input: 30
+  * Output: 
+    Mr. Roboger says: 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor?,Boop!,Boop!,Boop!,Boop!,Boop!,Boop!,Won't you be my neighbor?
 
 ## Setup/Installation Requirements
 

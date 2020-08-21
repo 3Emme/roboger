@@ -21,7 +21,7 @@ function triggerDetect(arrayLength,numberArray) {
   let triggerList = ["1","2","3"]; 
   let triggerOutput = [];
 
-    for (let number of numberArray){
+  for (let number of numberArray){
     let numberLength = number.length;
     let numberDigitArray = number.split("");
     console.log("numberDigitArray: " + numberDigitArray);
@@ -52,7 +52,7 @@ function triggerDetect(arrayLength,numberArray) {
       triggerOutput.push(number);
       console.log("no trigger, pushed number");
     }
-    }
+  }
     console.log("triggerOutput: " + triggerOutput);
   return triggerOutput;
 } 
