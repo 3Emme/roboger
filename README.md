@@ -89,7 +89,7 @@ For reference, here are last week's objectives:
   * If the trigger digit's value is 2, replace the number with the string "Boop!".
     * Input: 
     * Output:
-  * If the trigger digit's value is 1, replace the number with the string "Won't you be my neighbor?.
+  * If the trigger digit's value is 1, replace the number with the string "Won't you be my neighbor?".
     * Input: 
     * Output:
 

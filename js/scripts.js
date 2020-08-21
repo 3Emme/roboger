@@ -33,7 +33,7 @@ function triggerDetect(arrayLength,numberArray) {
     //console.log("digitArray: " + digitArray);
     let triggerDigit = 0;
       for (let digit of numberDigitArray){
-      console.log("digitArray digit looped");
+        console.log("digitArray digit looped");
         if (triggerList.includes(digit) && parseInt(digit) > triggerDigit) {
           triggerDigit = digit;
           console.log("digit triggered");
@@ -50,11 +50,24 @@ function triggerDetect(arrayLength,numberArray) {
         console.log("digit not triggered");
         //triggerOutput.push(numberArray[index]);
           }
-    }
+      }
     console.log("triggerDigit: " + triggerDigit);
-  }
-
-  //return triggerOutput;
+    if (triggerDigit === 3 || triggerDigit === "3"){
+      triggerOutput.push("Won't you be my neighbor?");
+      console.log("triggerOutput: pushed #3");
+    } else if (triggerDigit === 2 || triggerDigit === "2"){
+      triggerOutput.push("Boop!");
+      console.log("triggerOutput: pushed #2");
+    } else if (triggerDigit === 1 || triggerDigit === "1"){
+      triggerOutput.push("Beep!");
+      console.log("triggerOutput: pushed #1");
+    } else {
+      triggerOutput.push(number);
+      console.log("no trigger, pushed number");
+    }
+    }
+    console.log("triggerOutput: " + triggerOutput);
+  return triggerOutput;
 } 
 
 
