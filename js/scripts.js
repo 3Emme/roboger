@@ -22,24 +22,30 @@ function triggerDetect(arrayLength,numberArray) {
   let triggerOutput = [];
 
   for (let index = 0; index < arrayLength; index +=1) {
-    let numberLength = numberArray[index].length
-    
-    for (let index = 0; index < numberLength; index +=1)
-    if (triggerList.includes(digitArray[index])) {
-      // let digitArray = numberArray[index].split("");
-      // let xArray = [];
-      // stringArray.forEach(function(letter) {
-      //   if (vowels.includes(letter)) {
-      //     xArray.push("x");
-      //   } else {
-      //     xArray.push(letter);
-      //   }
-
-      // turn boolean true; if
-      //triggerOutput.push(numberArray[index]);      
-    } else {
-      triggerOutput.push(numberArray[index]);
+    let numberLength = numberArray[index].length;
+    let numberUnderScope = numberArray[index];
+    console.log("numberUnderScope: " + numberUnderScope);
+    //const digitArray = numberUnderScope.split("");
+    console.log("numberArray index loop: " + index);
+    //console.log("digitArray: " + digitArray);
+    for (let index = 0; index < numberLength; index +=1){
+      console.log("numberArray digit loop: " + index);
+      if (triggerList.includes(digitArray[index])) {
+        // let digitArray = numberArray[index].split("");
+        // let xArray = [];
+        // stringArray.forEach(function(letter) {
+        //   if (vowels.includes(letter)) {
+        //     xArray.push("x");
+        //   } else {
+        //     xArray.push(letter);
+        //   }
+        // turn boolean true; if
+        //triggerOutput.push(numberArray[index]);
+      } else {
+        triggerOutput.push(numberArray[index]);
+        }
     }
+
   }
 
   return triggerOutput;

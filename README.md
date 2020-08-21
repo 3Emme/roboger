@@ -69,7 +69,7 @@ For reference, here are last week's objectives:
   * Input: 10
   * Output: "0,1,2,3,4,5,6,7,8,9,10"
 
-* [] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), noticing only the highest value of the trigger digit detected.
+* [] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), recording only the highest value of the trigger digit detected.
   * Input: 
   * Output:
 
