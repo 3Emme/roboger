@@ -1,7 +1,8 @@
 // Business Logic 
 function roboger (initialNumber){ 
-  console.log("initialNumber: " + initialNumber)
+  console.log("initialNumber: " + initialNumber);
   const numberArray =  countUp(parseInt(initialNumber));
+  console.log("numberArray: " + numberArray);
 
   function countUp(endNumber){
     let countArray = [];
@@ -10,11 +11,28 @@ function roboger (initialNumber){
     }
     return countArray;
   }
-  console.log("numberArray: " + numberArray)
-  return numberArray;
+
+  let arrayLength = initialNumber.length();
+  console.log("arrayLength: " + arrayLength);
+  console.log("numberArray: " + numberArray);
+  return triggerDetect(arrayLength,numberArray);
 }
 
+function triggerDetect(arrayLength,numberArray) {  
+  let triggerList = [1,2,3]; 
+  let triggerOutput = [];
+  const digitString = numberArray[index];
+  
+  for (let index = 0; index < arrayLength; index +=1) {
+    if (numberArray[index] !== undefined) {
+      triggerOutput.push(numberArray[index]);      
+    } else {
+      triggerOutput.push(numberArray[index]);
+    }
+  }
 
+  return triggerOutput;
+} 
 
 
 
