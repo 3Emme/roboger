@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+#answerDisplay {
+  
+  margin: auto;
+  width: 100%;
+  display: none;
+  color: white  
+}
+
+#roboger-form {
+  margin: auto;
+  width: 90%;
+}
+
+p {
+  font-size: xx-large;
+}
