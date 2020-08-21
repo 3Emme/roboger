@@ -1,31 +1,42 @@
 // Business Logic 
 function roboger (initialNumber){ 
   console.log("initialNumber: " + initialNumber);
-  const numberArray =  countUp(parseInt(initialNumber));
-  console.log("numberArray: " + numberArray);
+  const numberArray =  countUp(initialNumber);
 
   function countUp(endNumber){
     let countArray = [];
-    for (let i = 0; i <= endNumber; i++){
+    for (let i = 0; i <= parseInt(endNumber); i++){
       countArray.push(i);
     }
     return countArray;
   }
 
-  let arrayLength = initialNumber.length();
+  let arrayLength = parseInt(initialNumber) + 1;
   console.log("arrayLength: " + arrayLength);
   console.log("numberArray: " + numberArray);
   return triggerDetect(arrayLength,numberArray);
 }
 
 function triggerDetect(arrayLength,numberArray) {  
-  let triggerList = [1,2,3]; 
+  let triggerList = ["1","2","3"]; 
   let triggerOutput = [];
-  const digitString = numberArray[index];
-  
+
   for (let index = 0; index < arrayLength; index +=1) {
-    if (numberArray[index] !== undefined) {
-      triggerOutput.push(numberArray[index]);      
+    let numberLength = numberArray[index].length
+    
+    for (let index = 0; index < numberLength; index +=1)
+    if (triggerList.includes(digitArray[index])) {
+      // let digitArray = numberArray[index].split("");
+      // let xArray = [];
+      // stringArray.forEach(function(letter) {
+      //   if (vowels.includes(letter)) {
+      //     xArray.push("x");
+      //   } else {
+      //     xArray.push(letter);
+      //   }
+
+      // turn boolean true; if
+      //triggerOutput.push(numberArray[index]);      
     } else {
       triggerOutput.push(numberArray[index]);
     }
