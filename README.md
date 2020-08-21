@@ -62,13 +62,31 @@ For reference, here are last week's objectives:
 
 ## Specs
 * [X] The program accepts only numbers from the user input
-* [X] The program returns a range of numbers from 0 to the users inputted number
-* [X] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), noticing only the highest value of the trigger digit detected.
-* [X] The program replaces any number within the range that contains a trigger digit with a string. The string's value is dependent on the value of the trigger digit detected:
+  * Input: 5
+  * Output: 5
+
+* [] The program returns a range of numbers from 0 to the users inputted number
+  * Input: 
+  * Output:
+
+* [] The program looks at each number within the range returned and detects whether any of the individual digits within the number match one of the trigger digits (1, 2, 3), noticing only the highest value of the trigger digit detected.
+  * Input: 
+  * Output:
+
+* [] The program replaces any number within the range that contains a trigger digit with a string. The string's value is dependent on the value of the trigger digit detected:
   * If the trigger digit's value is 3, replace the number with the string "Won't you be my neighbor?".
+    * Input: 
+    * Output:
   * If the trigger digit's value is 2, replace the number with the string "Boop!".
+    * Input: 
+    * Output:
   * If the trigger digit's value is 1, replace the number with the string "Won't you be my neighbor?.
-* [X] The program displays the new list of values to the user
+    * Input: 
+    * Output:
+
+* [] The program displays the new list of values to the user
+  * Input: 
+  * Output:
 
 ## Setup/Installation Requirements
 
