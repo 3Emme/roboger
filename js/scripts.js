@@ -1,13 +1,7 @@
 // Business Logic 
 function roboger (initialNumber){ 
-  
+
 }
-
-
-
-
-
-
 
 
 
