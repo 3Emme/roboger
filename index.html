@@ -13,6 +13,7 @@
   <div class="container">   
     <form id="roboger-form">
       <h1>Enter a number, and watch as Mr. Roboger responds!</h1>
+      <img id="rogers-img" src="img/mr-roboger-img.jpg" alt="Slightly offputting depiction of Mr. Rogers">
       <div class="form">
         <div class="form-group">
           <label for="initialNumber">Your number:</label>
@@ -20,9 +21,12 @@
         </div>
       <button class="btn bg-info text-white">Speak, Mr. Roboger</button>      
     </form>
-    <div id="answerDisplay">
-      <p>Mr. Roboger says: <span id="result"></span></p>
-    </div>    
+    <div id="answerDisplay">  
+      <blockquote class="blockquote">
+        <p class="mb-0"><span id="result"></span></p>
+        <footer class="blockquote-footer">Mr.Roboger, <cite title="Source Title">probably</cite></footer>
+      </blockquote>
+    </div> 
   </div>    
 </body>
 </html>

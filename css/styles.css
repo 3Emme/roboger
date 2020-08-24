@@ -3,9 +3,12 @@ body {
   color: white;
 }
 
+p {
+  font-size: xx-large;
+}
+
 #answerDisplay {
-  
-  margin: auto;
+  margin-top: 25px;
   width: 100%;
   display: none;
   color: white  
@@ -16,6 +19,11 @@ body {
   width: 90%;
 }
 
-p {
-  font-size: xx-large;
+#rogers-img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
