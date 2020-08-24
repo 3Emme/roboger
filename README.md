@@ -37,28 +37,28 @@ This application was created as an Epicodus assignment, with the intent to have 
 
 ## Project Objectives:
 
-  * JavaScript business logic and user interface logic are separate. **[Incomplete]**
-  * Tests are included for each behavior and code is committed after each test passes. **[Incomplete]**
-  * Application implements a loop and works as expected. **[Incomplete]**
-  * The user can use the application repeatedly and see new results. **[Incomplete]**
-  * All previous objectives have been met. **[Incomplete]**
-  * Required functionality is in place by the Friday deadline. **[Incomplete]**
-  * Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology. **[Incomplete]**
+  * JavaScript business logic and user interface logic are separate. **[Complete]**
+  * Tests are included for each behavior and code is committed after each test passes. **[Complete]**
+  * Application implements a loop and works as expected. **[Complete]**
+  * The user can use the application repeatedly and see new results. **[Complete]**
+  * All previous objectives have been met. **[Complete]**
+  * Required functionality is in place by the Friday deadline. **[Complete]**
+  * Project demonstrates understanding of concepts covered this week. If prompted, you are able to discuss your code with an instructor using correct terminology. **[Complete]**
 
   # _Previous Objectives:_
 
 For reference, here are last week's objectives:
 
-  * Project is in a presentable, portfolio-quality state. **[Incomplete]**
-  * Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools. **[Incomplete]**
-  * Variable names are descriptive and use lower camel case (e.g. myVariableExample). **[Incomplete]**
-  * Commits are made regularly with clear messages that finish the phrase "It will…". **[Incomplete]**
+  * Project is in a presentable, portfolio-quality state. **[Complete]**
+  * Code is clean, well-refactored, and easy-to-read. This includes correct indendation, spacing, and including only necessary comments and debugging tools. **[Complete]**
+  * Variable names are descriptive and use lower camel case (e.g. myVariableExample). **[Complete]**
+  * Commits are made regularly with clear messages that finish the phrase "It will…". **[Complete]**
   * Project README that includes, bare minimum:
-    * author name **[Incomplete]**
-    * program name **[Incomplete]**
-    * detailed setup instructions **[Incomplete]**
-    * description **[Incomplete]**
-    * copyright and license information **[Incomplete]**
+    * author name **[Complete]**
+    * program name **[Complete]**
+    * detailed setup instructions **[Complete]**
+    * description **[Complete]**
+    * copyright and license information **[Complete]**
 
 ## Specs
 * [X] The program accepts only numbers from the user input
